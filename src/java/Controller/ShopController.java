@@ -43,7 +43,7 @@ public class ShopController implements Serializable {
     // This method help out to initialise Random shops, (random names, images, and distance).
     public ArrayList<Shop> initshops() {
         shops = new ArrayList<>();
-        for (int i = 0; i < 15; i++) {
+        for (int i = 0; i < 16; i++) {
             shops.add(new Shop(i, "shop_" + (i + 1), (int) (20.6 * i + 1), false, false, i + ".jpg"));
         }
         return shops;
