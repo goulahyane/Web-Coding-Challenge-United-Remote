@@ -20,9 +20,28 @@ This project aims to list the nearby shops by distance.
 ![Controllers and Model](https://github.com/goulahyane/Web-Coding-Challenge-United-Remote/blob/master/web/images/Screen1.png)
 #### Front End
 ![Views](https://github.com/goulahyane/Web-Coding-Challenge-United-Remote/blob/master/web/images/Screen2.png)
-#### Entry point
+
 ### Running the tests
+* First to do in your terminal;
+```
+git clone https://github.com/goulahyane/Web-Coding-Challenge-United-Remote
+```
+* Open Your IDE, and Load The project
+* Clean and build, Then Run 
+* Open your navigator and Browse to 
+```
+http://localhost:28227/Web-Coding-Challenge-United-Remote/
+```
 ### Screen Shots
+#### Sign up
+![Views](https://github.com/goulahyane/Web-Coding-Challenge-United-Remote/blob/master/web/images/Screen3.png)
+#### Sign in 
+![Views](https://github.com/goulahyane/Web-Coding-Challenge-United-Remote/blob/master/web/images/Screen4.png)
+#### Nearby Shops
+![Views](https://github.com/goulahyane/Web-Coding-Challenge-United-Remote/blob/master/web/images/Screen6.png)
+#### Preferred Shops
+![Views](https://github.com/goulahyane/Web-Coding-Challenge-United-Remote/blob/master/web/images/Screen7.png)
+
 ## Covered functions
 
 * A user can sign up using his mail and password.
@@ -38,3 +57,6 @@ This project aims to list the nearby shops by distance.
 * Data of previous user is not saved for the future sign in; beacuse i decided to make it as simple as i could and avoid to use data bases.
 * User can not dislike a shops, then the shops will be hidden for like 2h in the nearby shops.
 * Shops are not listed by distance, no logical ditance was used, only using random generated data with a foor loop, and ofc for huge amount of data using a data base, shops can be listed by their distance.
+
+## Author
+* **Abderrahmane GOULAHYANE**
