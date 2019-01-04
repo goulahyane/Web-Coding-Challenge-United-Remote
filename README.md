@@ -16,9 +16,15 @@ This project aims to list the nearby shops by distance.
 
 
 ### Hierarchy
+
+#### NOTE
+* This Web APP follows the MVC pattern in order to separate between client-side and server-side.
+
 #### Back End
+##### Java Servlet
 ![Controllers and Model](https://github.com/goulahyane/Web-Coding-Challenge-United-Remote/blob/master/web/images/Screen1.png)
 #### Front End
+##### HTML5, Bootsrap
 ![Views](https://github.com/goulahyane/Web-Coding-Challenge-United-Remote/blob/master/web/images/Screen2.png)
 
 ### Running the tests
@@ -57,6 +63,8 @@ http://localhost:28227/Web-Coding-Challenge-United-Remote/
 * Data of previous user is not saved for the future sign in; beacuse i decided to make it as simple as i could and avoid to use data bases.
 * User can not dislike a shops, then the shops will be hidden for like 2h in the nearby shops.
 * Shops are not listed by distance, no logical ditance was used, only using random generated data with a foor loop, and ofc for huge amount of data using a data base, shops can be listed by their distance.
+
+---------------
 
 ## Author
 * **Abderrahmane GOULAHYANE**
